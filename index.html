@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE='">
+        <meta name="viewport" content="width=device-width" >
+        <title>chrome Extension</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>    
+    <body>
+        <div class="Chrome Extension">
+            <div class="ChromeExtension_MainContainer">
+
+                <input  class="ChromeExtension_InputField" type = "text"/>
+                <div class="ChromeExtension_ButtonBlock">
+                    <button class="ChromeExtension_SaveBtn">
+                        Save Input
+                    </button>
+                    
+                    <button class="ChromeExtension_TabBtn">
+                        Save Tab
+                    </button>
+
+                    <button class="ChromeExtension_DeleteBtn">
+                        Delete All
+                    </button>
+
+                </div>
+               
+                <!-- Ul for saving entered data -->
+                <ul class="ChromeExtension_SavedData">
+                </ul>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
